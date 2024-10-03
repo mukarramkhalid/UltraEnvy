@@ -3,7 +3,7 @@
 
 
 ## About
-Abusing the PEB and Windows debug functions to dynamically modify process names
+Abusing the PEB and Windows debug functions to dynamically modify arguments in the command line
 
 <br>
 
