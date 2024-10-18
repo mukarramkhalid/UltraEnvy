@@ -53,7 +53,7 @@ int main(int argc, char** argv)
                 printf("[+] PEB located at address 0x%08x\n\n", (UINT)&pbi);
 
                 if (!ReadProcessMemory(pi.hProcess, pbi.PebBaseAddress, &targetPEB, sizeof(PEB), &bytesRead)) { 
-                    fprintf(stderr, "[-] Failed to retrieve parameters. (E%lu)\n\n", GetLastError());
+                    fprintf(stderr, "[-] Failed to retrieve PEB. (E%lu)\n\n", GetLastError());
                     return EXIT_FAILURE;
                 };
 
