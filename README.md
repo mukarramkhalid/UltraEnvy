@@ -8,3 +8,4 @@ Abusing the PEB and Windows debug functions to dynamically modify arguments in t
 <br>
 
 ## Preview 
+<img width="694" alt="ultra" src="https://github.com/user-attachments/assets/0a7d32ad-cb87-4403-8b5d-8fe5a24dde27">
