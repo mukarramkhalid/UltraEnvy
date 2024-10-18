@@ -17,8 +17,6 @@ int main(int argc, char** argv)
     STARTUPINFOW          si = { 0 };
     PROCESS_INFORMATION   pi = { 0 };
 
-    CONTEXT               ctx = { CONTEXT_FULL };
-
     DEBUG_EVENT           DbgEvent  = { 0 };
     PEB                   targetPEB = { 0 };
 
